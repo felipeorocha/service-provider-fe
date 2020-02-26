@@ -5,7 +5,7 @@ import { Form, Input } from "@rocketseat/unform";
 import * as Yup from "yup";
 import { signInRequest } from "~/store/modules/auth/actions";
 import logo from "~/assets/mask_gas.svg";
-import Loading from "~/pages/Components/Loading";
+import Loading from "~/Components/Loading";
 
 const schema = Yup.object().shape({
   email: Yup.string()
