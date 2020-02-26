@@ -40,7 +40,7 @@ const Notifications = () => {
   }, []);
 
   const handleToggleVisible = () => {
-    setVisible(!visible);
+    setVisible(true);
   };
 
   const handleClickOutside = e => {
